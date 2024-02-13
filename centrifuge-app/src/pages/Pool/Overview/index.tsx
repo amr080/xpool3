@@ -9,6 +9,7 @@ import { InvestRedeemDrawer } from '../../../components/InvestRedeem/InvestRedee
 import { IssuerSection } from '../../../components/IssuerSection'
 import { LayoutBase } from '../../../components/LayoutBase'
 import { LoadBoundary } from '../../../components/LoadBoundary'
+import { AssetsByMaturity } from '../../../components/PoolOverview/AssetsByMaturity'
 import { Cashflows } from '../../../components/PoolOverview/Cashflows'
 import { KeyMetrics } from '../../../components/PoolOverview/KeyMetrics'
 import { PoolPerformance } from '../../../components/PoolOverview/PoolPerfomance'
@@ -139,7 +140,7 @@ export function PoolDetailOverview() {
       {!isTinlakePool && (
         <>
           <PoolOverviewSection>
-            <Grid height="fit-content" gridTemplateColumns="1fr 1fr" gap={3}>
+            <Grid height="316px" gridTemplateColumns="1fr 1fr" gap={3}>
               <React.Suspense fallback={<Spinner />}>
                 <PoolStructure
                   numOfTranches={pool.tranches.length}
@@ -147,9 +148,9 @@ export function PoolDetailOverview() {
                   poolStatus={metadata?.pool?.status}
                 />
               </React.Suspense>
-              {/* <React.Suspense fallback={<Spinner />}>
+              <React.Suspense fallback={<Spinner />}>
                 <AssetsByMaturity />
-              </React.Suspense> */}
+              </React.Suspense>
             </Grid>
           </PoolOverviewSection>
           <PoolOverviewSection>
