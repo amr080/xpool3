@@ -1,4 +1,5 @@
-# Monorepo for the Centrifuge applications
+# Monorepo for XFT applications
+
 
 ## Preparing Envs (e.g when the dev chain data is reset)
 
