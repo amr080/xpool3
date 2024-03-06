@@ -1,4 +1,4 @@
-# Centrifuge App
+#XFT Demo App
 
 ## Data and UI Architecture
 
