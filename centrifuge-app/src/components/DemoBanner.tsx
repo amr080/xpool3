@@ -26,7 +26,7 @@ export const DemoBanner = () => {
       onClose={() => onClose()}
       title={
         <Text as="h3" color="textInverted" variant="heading5">
-          Welcome to the demo environment of the Centrifuge App. All data and wallet transactions are not real as this
+          Welcome to the demo environment of the XFT App. All data and wallet transactions are not real as this
           is purely a testing environment. Read{' '}
           <Text
             target="_blank"

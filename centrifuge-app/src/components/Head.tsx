@@ -7,7 +7,7 @@ export function Head() {
 
   return (
     <Helmet>
-      <title>{network === 'centrifuge' ? 'Centrifuge App' : 'Altair App'}</title>
+      <title>{network === 'centrifuge' ? 'XFT App' : 'Altair App'}</title>
       <meta
         name="description"
         content="The on-chain ecosystem for structured credit. Institutional investors earn yield backed by tokenized RWAs, while SMEs get access to a cheaper cost of capital."
