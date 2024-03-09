@@ -16,7 +16,7 @@ export const Footer = () => {
             Need help?
           </Text>
         </UnstyledLink>
-        <UnstyledLink href="https://docs.centrifuge.io/">
+        <UnstyledLink href="https://xft.framer.website/">
           <Text textOverflow="ellipsis" variant="body4">
             Documentation
           </Text>
@@ -26,12 +26,12 @@ export const Footer = () => {
             Investment disclaimer
           </Text>
         </UntyledButton>
-        <UnstyledLink target="_blank" href="https://centrifuge.io/data-privacy-policy/">
+        <UnstyledLink target="_blank" href="https://xft.framer.website/">
           <Text textOverflow="ellipsis" variant="body4">
             Data privacy policy
           </Text>
         </UnstyledLink>
-        <UnstyledLink target="_blank" href="https://centrifuge.io/imprint/">
+        <UnstyledLink target="_blank" href="https://xft.framer.website/">
           <Text textOverflow="ellipsis" variant="body4">
             Imprint
           </Text>
