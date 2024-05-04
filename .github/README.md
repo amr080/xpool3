@@ -1,4 +1,4 @@
-# X FINANCIAL TECHNOLOGIES
+# X Financial Technologies
 
 ## About XFT
 X Financial Technologies (XFT) bridges traditional finance and DeFi, developing essential technologies for a unified, integrated, and universal financial access layer.
