@@ -31,7 +31,7 @@ export const DemoBanner = () => {
           <Text
             target="_blank"
             as="a"
-            href="https://centrifuge.hackmd.io/@Anna/H1ylqpRQj"
+            href="https://xft.framer.website/"
             color="textInverted"
             variant="heading5"
             display="inline"

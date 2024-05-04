@@ -24,18 +24,18 @@ function Prime() {
   return (
     <>
       <LayoutSection backgroundColor="backgroundSecondary" alignItems="flex-start" pt={5} pb={3}>
-        <Text variant="heading1">Centrifuge Prime</Text>
+        <Text variant="heading1">XFT Prime</Text>
         <Box maxWidth={800}>
           <Text variant="body1">
-            Centrifuge Prime was built to meet the needs of large decentralized organizations and protocols. Through
-            Centrifuge Prime, DeFi native organizations can integrate with the largest financial markets in the world
+            XFT Prime was built to meet the needs of large decentralized organizations and protocols. Through
+            XFT Prime, DeFi native organizations can integrate with the largest financial markets in the world
             and take advantage of real yields from real economic activity - all onchain. Assets tailored to your needs,
             processes adapted to your governance, and all through decentralized rails.
           </Text>
         </Box>
         <Box bleedX={2} bleedY={1}>
           <AnchorButton
-            href="https://centrifuge.io/prime/"
+            href="https://xabout.replit.app/"
             target="_blank"
             iconRight={IconExternalLink}
             variant="tertiary"

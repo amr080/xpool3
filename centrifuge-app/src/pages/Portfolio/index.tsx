@@ -43,7 +43,7 @@ function Portfolio() {
           <Stack maxWidth="700px" gap={2}>
             <Text variant="body2">
               The portfolio page is empty as there are no investments available for display at the moment. Go explore
-              some pools on Centrifuge, where you can earn yield from real-world assets.
+              some pools on XFT, where you can earn yield from real-world assets.
             </Text>
             <RouterLinkButton style={{ display: 'inline-flex' }} variant="primary" to="/pools">
               View pools
